@@ -25,6 +25,7 @@ p {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 30px;
   color:black;
+  text-align:justify;
 }
 
 body[page=index] > div {
