@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Raleway);
+
+/*
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+Switch to this when time permits: https://github.com/typekit/webfontloader
+*/
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 8vmax;
+  text-align:center;
+}
+
+p {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 30px;
+  text-align:justify;
+  color:black;
+}
+
+body[page=index] > div {
+  padding: 30vh 15vw;
+  color: white;
+}
+
+.c-gold {
+  background-color: gold
+}
+
+.c-gold h1 {
+  background-color: orange;
+}
