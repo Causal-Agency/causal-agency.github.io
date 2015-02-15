@@ -15,14 +15,15 @@ h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 10vw;
   letter-spacing: 0.3vw;
-  padding: 1vh 0;
+  padding: 1vh 0 1vh;
+  border-width: 0 0 2px;
+  border-style: solid;
   text-align:center;
 }
 
 p {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 30px;
-  text-align:justify;
   color:black;
 }
 
@@ -32,13 +33,13 @@ body[page=index] > div {
 }
 
 .c-gold { background-color: gold }
-.c-gold h1 { background-color: orange; }
+.c-gold h1 { background-color: orange; border-color: darkgoldenrod; }
 
 .c-lightgreen { background-color: lightgreen }
-.c-lightgreen h1 { background-color: darkcyan; }
+.c-lightgreen h1 { background-color: cadetblue; border-color: darkolivegreen; }
 
 .c-lightsalmon { background-color: lightsalmon }
-.c-lightsalmon h1 { background-color: orangered; }
+.c-lightsalmon h1 { background-color: orangered; border-color: white ; }
 
-.c-gold { background-color: gold }
-.c-gold h1 { background-color: orange; }
+.c-x { background-color: x }
+.c-x h1 { background-color: orange; border-color:  ; }
