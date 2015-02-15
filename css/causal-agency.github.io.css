@@ -13,7 +13,9 @@ body {
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 8vmax;
+  font-size: 10vw;
+  letter-spacing: 0.3vw;
+  padding: 1vh 0;
   text-align:center;
 }
 
@@ -29,10 +31,14 @@ body[page=index] > div {
   color: white;
 }
 
-.c-gold {
-  background-color: gold
-}
+.c-gold { background-color: gold }
+.c-gold h1 { background-color: orange; }
 
-.c-gold h1 {
-  background-color: orange;
-}
+.c-lightgreen { background-color: lightgreen }
+.c-lightgreen h1 { background-color: darkcyan; }
+
+.c-lightsalmon { background-color: lightsalmon }
+.c-lightsalmon h1 { background-color: orangered; }
+
+.c-gold { background-color: gold }
+.c-gold h1 { background-color: orange; }
